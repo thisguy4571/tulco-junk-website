@@ -48,4 +48,9 @@
   body {
     padding-bottom: 92px;
   }
+}@media (max-width: 768px) {
+  .sticky-mobile a {
+    padding: 10px 0;
+    font-size: 16px;
+  }
 }
