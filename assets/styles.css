@@ -44,4 +44,8 @@
     font-size: 48px;
     line-height: 1;
   }
+}@media (max-width: 768px) {
+  body {
+    padding-bottom: 92px;
+  }
 }
