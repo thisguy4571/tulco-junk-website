@@ -22,7 +22,7 @@ function calc(){
   const t=tiers[selectedTier];
   const c=Math.max(1,Number(crew?.value||2));
   const h=Math.max(.5,Number(hours?.value||2));
-  const labor=c*h*55;
+  const labor=h*55;
   loadLabel.textContent=t.n;
   loadPrice.textContent='$'+t.p.toLocaleString();
   laborPrice.textContent='$'+labor.toLocaleString();
