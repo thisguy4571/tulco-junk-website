@@ -211,4 +211,80 @@
   .national-truck {
     width: 170px;
   }
+}/* ===== Comparison section upgrade ===== */
+
+.comparison-bar {
+  padding: 22px 0;
+  background: #080808;
+}
+
+.comparison-row {
+  background: #f3f3f3;
+  color: #111;
+}
+
+.comparison-row > div {
+  border-color: #d0d0d0;
+}
+
+.comparison-row b {
+  color: #111;
+}
+
+.comparison-row span {
+  color: #333;
+}
+
+/* Tulco row */
+.tulco-row {
+  background: #ffffff;
+  border-top: 3px solid #ffd400;
+  border-bottom: 3px solid #ffd400;
+}
+
+.tulco-row b {
+  color: #111;
+}
+
+/* Make our truck the visual winner */
+.tulco-truck {
+  width: 290px !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: 125px !important;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Competitor row slightly darker and smaller */
+.national-row {
+  background: #e7e7e7;
+}
+
+.national-truck {
+  width: 210px !important;
+  max-width: 90% !important;
+  height: auto !important;
+  max-height: 95px !important;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 4px;
+}
+
+.national-row .comparison-brand strong {
+  color: #111;
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+  .tulco-truck {
+    width: 250px !important;
+    max-height: 115px !important;
+  }
+
+  .national-truck {
+    width: 180px !important;
+    max-height: 85px !important;
+  }
 }
