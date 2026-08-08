@@ -662,3 +662,82 @@
     font-weight: 900 !important;
 }
 
+/* ===== PRICING SECTION READABILITY FIX ===== */
+
+/* Load size card titles */
+#pricing .volume-option b {
+  font-size: 20px !important;
+  font-weight: 900 !important;
+  line-height: 1.15 !important;
+}
+
+/* Load size card descriptions */
+#pricing .volume-option small {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 1.35 !important;
+}
+
+/* Load size prices */
+#pricing .volume-option span {
+  font-size: 24px !important;
+  font-weight: 900 !important;
+}
+
+/* Planning estimate heading */
+#pricing .estimate-panel .eyebrow {
+  font-size: 15px !important;
+  font-weight: 900 !important;
+}
+
+/* Crew members / estimated hours labels */
+#pricing .field label {
+  font-size: 15px !important;
+  font-weight: 800 !important;
+}
+
+/* Select and input text */
+#pricing .field select,
+#pricing .field input {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+
+/* Load fee / labor rows */
+#pricing .result-lines span,
+#pricing .result-lines strong {
+  font-size: 15px !important;
+  font-weight: 800 !important;
+}
+
+/* Half trailer label */
+#pricing .estimate-note {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+}
+
+/* Fine print under quote button */
+#pricing .estimate-panel > small {
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  font-weight: 600 !important;
+}
+
+/* Button text */
+#pricing .btn {
+  font-size: 16px !important;
+  font-weight: 900 !important;
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+  #pricing .volume-option b {
+    font-size: 18px !important;
+  }
+
+  #pricing .volume-option small,
+  #pricing .estimate-panel > small {
+    font-size: 13px !important;
+  }
+}
+
