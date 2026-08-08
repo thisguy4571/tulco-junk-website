@@ -288,3 +288,153 @@
     max-height: 85px !important;
   }
 }
+
+/* ===== FINAL COMPARISON SECTION ===== */
+
+.comparison-bar {
+  padding: 28px 0;
+  background: #080808;
+}
+
+.comparison-row {
+  display: grid;
+  grid-template-columns: 1.45fr repeat(4, 1fr);
+  width: 100%;
+  overflow: hidden;
+}
+
+.comparison-row > div {
+  min-height: 150px;
+  padding: 22px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 1px solid #d1d1d1;
+}
+
+.comparison-row > div:last-child {
+  border-right: 0;
+}
+
+/* ===== TULCO ROW ===== */
+
+.tulco-row {
+  background: #ffffff;
+  color: #111;
+  border-top: 3px solid #ffd400;
+  border-bottom: 3px solid #ffd400;
+}
+
+.tulco-row b {
+  color: #ffd000;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.tulco-row span {
+  color: #555;
+  margin-top: 10px;
+}
+
+/* ===== NATIONAL ROW ===== */
+
+.national-row {
+  background: #e3e3e3;
+  color: #111;
+}
+
+.national-row b {
+  color: #111 !important;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.national-row span {
+  color: #444 !important;
+  margin-top: 10px;
+}
+
+.national-row .comparison-brand strong {
+  color: #111 !important;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+/* ===== VEHICLE COLUMN ===== */
+
+.comparison-brand {
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center;
+  overflow: hidden;
+}
+
+.comparison-truck {
+  display: block;
+  height: auto !important;
+  object-fit: contain;
+}
+
+/* Our larger setup */
+.tulco-truck {
+  width: 340px !important;
+  max-width: 100% !important;
+  max-height: 135px !important;
+  margin: 0 auto !important;
+}
+
+/* Competitor intentionally smaller */
+.national-truck {
+  width: 235px !important;
+  max-width: 82% !important;
+  max-height: 100px !important;
+  margin: 0 auto !important;
+}
+
+/* Kill old placeholder if any remains */
+.truck-placeholder {
+  display: none !important;
+}
+
+/* ===== DESKTOP CARD LOOK ===== */
+
+@media (min-width: 801px) {
+  .comparison-bar .wrap {
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 14px 40px rgba(0,0,0,.35);
+  }
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 800px) {
+  .comparison-row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .comparison-row > div {
+    min-height: 120px;
+    padding: 16px 12px;
+  }
+
+  .comparison-brand {
+    grid-column: 1 / -1;
+    min-height: 150px !important;
+  }
+
+  .tulco-truck {
+    width: 300px !important;
+    max-height: 125px !important;
+  }
+
+  .national-truck {
+    width: 210px !important;
+    max-height: 95px !important;
+  }
+
+  .tulco-row b,
+  .national-row b {
+    font-size: 25px;
+  }
+}
