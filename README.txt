@@ -1,13 +1,10 @@
-TULCO JUNK REMOVAL WEBSITE — VERSION 2.1
+TULCO JUNK REMOVAL - VERSION 2.0
 
-Deployment: upload all files and folders to the root of the GitHub repository. Cloudflare automatically deploys the main branch.
+Static website ready for GitHub + Cloudflare deployment.
 
-Version 2.1 additions:
-- Faster photo-to-text quote workflow
-- Interactive load and labor estimator
-- Stronger mobile and homepage conversion layout
-- Service standards section without fabricated reviews
-- Improved FAQ, service-area, SEO, favicon, and web app manifest
-- Quote request copy-to-clipboard and SMS handoff
+Upload the CONTENTS of this folder to the repository root.
+Cloudflare build command: leave blank (or use your current static-assets deployment).
+Output directory: repository root.
 
-Important: the quote form prepares a text message on the visitor's device. It does not transmit or store form data on a server. A server-side CRM or form endpoint can be connected later.
+Important: the quote form opens the visitor's email app. Connect a real form endpoint/CRM before running paid traffic.
+Replace illustration placeholders with real Tulco job photos as soon as available.
