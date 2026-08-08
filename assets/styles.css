@@ -597,3 +597,68 @@
   }
 }
 
+/* ===== PRICING ESTIMATOR - BIGGER / EASIER TO READ ===== */
+
+/* Load-size cards: main labels */
+#pricing .size b {
+    font-size: 22px !important;
+    font-weight: 900 !important;
+    line-height: 1.1 !important;
+}
+
+/* Load-size cards: descriptions */
+#pricing .size span {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 1.35 !important;
+}
+
+/* Load-size prices */
+#pricing .size strong,
+#pricing .size .price {
+    font-size: 27px !important;
+    font-weight: 900 !important;
+}
+
+/* Planning Estimate labels */
+#pricing label {
+    font-size: 16px !important;
+    font-weight: 800 !important;
+}
+
+/* Crew members + estimated hours boxes */
+#pricing select,
+#pricing input {
+    font-size: 17px !important;
+    font-weight: 700 !important;
+}
+
+/* Load fee / Estimated labor text */
+#pricing .estimate-row,
+#pricing .estimate-row span,
+#pricing .estimate-row strong {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+}
+
+/* Half trailer / supporting text */
+#pricing .muted,
+#pricing small {
+    font-size: 15px !important;
+    line-height: 1.45 !important;
+}
+
+/* Bottom pricing disclaimer */
+#pricing .estimate-note,
+#pricing .disclaimer {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    line-height: 1.5 !important;
+}
+
+/* Quote button */
+#pricing .btn {
+    font-size: 16px !important;
+    font-weight: 900 !important;
+}
+
