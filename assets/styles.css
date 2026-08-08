@@ -459,3 +459,45 @@
 .national-row .comparison-brand {
   gap: 8px;
 }
+
+/* Final comparison text + truck labels */
+
+.comparison-row b {
+  font-weight: 900;
+}
+
+.tulco-row b {
+  color: #ffd400;
+}
+
+.national-row b {
+  color: #000;
+}
+
+.comparison-row span {
+  color: #444;
+  font-weight: 600;
+}
+
+.comparison-brand {
+  text-align: center;
+}
+
+.truck-label {
+  display: block;
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.tulco-label {
+  color: #000;
+}
+
+.national-row .comparison-brand strong {
+  color: #000;
+  font-weight: 900;
+}
