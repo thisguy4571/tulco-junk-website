@@ -501,3 +501,98 @@
   color: #000;
   font-weight: 900;
 }
+
+/* ===== FINAL COMPARISON FIX ===== */
+
+/* Keep the comparison rows clean */
+.tulco-row,
+.national-row {
+  grid-template-columns: 1.45fr repeat(4, 1fr);
+}
+
+/* Make both vehicle areas stronger */
+.comparison-brand {
+  text-align: center !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* OUR TRUCK */
+.tulco-row .comparison-brand strong {
+  display: block;
+  color: #000 !important;
+  font-size: 19px !important;
+  font-weight: 900 !important;
+  margin-top: 8px !important;
+  text-transform: uppercase;
+}
+
+/* NATIONAL BRANDS */
+.national-row .comparison-brand strong {
+  display: block;
+  color: #000 !important;
+  font-size: 19px !important;
+  font-weight: 900 !important;
+  margin-top: 8px !important;
+  text-transform: uppercase;
+}
+
+/* Tulco big numbers stay yellow */
+.tulco-row b {
+  color: #ffd400 !important;
+  font-size: 29px !important;
+  font-weight: 900 !important;
+}
+
+/* IMPORTANT: darken Tulco descriptions */
+.tulco-row span {
+  color: #222 !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+}
+
+/* Competitor numbers */
+.national-row b {
+  color: #000 !important;
+  font-size: 29px !important;
+  font-weight: 900 !important;
+}
+
+/* Competitor descriptions */
+.national-row span {
+  color: #222 !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+}
+
+/* Make our larger setup visibly larger */
+.tulco-truck {
+  width: 320px !important;
+  max-width: 96% !important;
+  max-height: 125px !important;
+  object-fit: contain !important;
+}
+
+/* Keep national brand smaller */
+.national-truck {
+  width: 230px !important;
+  max-width: 80% !important;
+  max-height: 100px !important;
+  object-fit: contain !important;
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+  .tulco-truck {
+    width: 280px !important;
+  }
+
+  .national-truck {
+    width: 205px !important;
+  }
+
+  .tulco-row span,
+  .national-row span {
+    font-size: 12px !important;
+  }
+}
