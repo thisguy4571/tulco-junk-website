@@ -446,3 +446,16 @@
 .national-row .truck-placeholder {
   display: none !important;
 }
+
+
+/* Final competitor truck polish */
+.national-truck {
+  width: 250px !important;
+  max-width: 88% !important;
+  background: transparent !important;
+  border-radius: 8px;
+}
+
+.national-row .comparison-brand {
+  gap: 8px;
+}
