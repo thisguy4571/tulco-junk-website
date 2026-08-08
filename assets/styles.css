@@ -172,4 +172,43 @@
   width: 200px;
   height: 85px;
 }
+}/* Comparison vehicle images */
+
+.comparison-truck {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto 8px;
+}
+
+/* Tulco F-350 + 20 yd dump trailer */
+.tulco-truck {
+  width: 260px;
+  max-width: 100%;
+}
+
+/* National brand truck - intentionally smaller */
+.national-truck {
+  width: 190px;
+  max-width: 85%;
+}
+
+.national-row .comparison-brand {
+  align-items: flex-start;
+}
+
+.national-row .comparison-brand strong {
+  margin-top: 4px;
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+  .tulco-truck {
+    width: 240px;
+  }
+
+  .national-truck {
+    width: 170px;
+  }
 }
