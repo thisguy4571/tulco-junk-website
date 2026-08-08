@@ -741,3 +741,11 @@
   }
 }
 
+/* ===== MAKE PRICING DESCRIPTIONS EASIER TO READ ===== */
+
+#pricing .volume-option small {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+}
+
