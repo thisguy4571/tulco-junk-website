@@ -438,3 +438,11 @@
     font-size: 25px;
   }
 }
+
+}
+
+ 
+/* Remove leftover national-brand placeholder */
+.national-row .truck-placeholder {
+  display: none !important;
+}
