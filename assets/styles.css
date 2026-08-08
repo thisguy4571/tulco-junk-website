@@ -50,3 +50,46 @@
   .sticky-mobile{position:fixed;left:0;right:0;bottom:0;z-index:100;box-shadow:0 -8px 24px rgba(0,0,0,.35)}
   .sticky-mobile .btn{min-height:58px;padding:10px 14px}
 }
+
+/* Sticky mobile CTA - final fix */
+@media(max-width:940px){
+  body{padding-bottom:84px}
+  .footer{padding-bottom:110px}
+  .sticky-mobile{
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:1000;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    width:100%;
+    padding:0 0 env(safe-area-inset-bottom,0);
+    background:#070707;
+    border-top:2px solid var(--yellow);
+    box-shadow:0 -8px 24px rgba(0,0,0,.45);
+  }
+  .sticky-mobile .btn{
+    width:100%;
+    min-width:0;
+    min-height:64px;
+    margin:0;
+    padding:12px 10px;
+    border-radius:0;
+    border-width:0;
+    font-size:18px;
+    line-height:1;
+    white-space:nowrap;
+    transform:none;
+  }
+  .sticky-mobile .btn.ghost{
+    background:#0d0d0d;
+    color:var(--yellow);
+    border-right:1px solid #333;
+  }
+  .sticky-mobile .btn.primary{
+    background:var(--yellow);
+    color:#000;
+  }
+  .sticky-mobile .btn:hover{transform:none}
+}
