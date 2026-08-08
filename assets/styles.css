@@ -597,30 +597,3 @@
   }
 }
 
-/* ===== SERVICE CARDS POLISH ===== */
-
-.service-card,
-.service-card.featured {
-  background: linear-gradient(145deg, #171717, #0d0d0d) !important;
-  color: #fff !important;
-  border: 1px solid #2d2d2d !important;
-  transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease;
-}
-
-.service-card.featured h3,
-.service-card.featured p {
-  color: #fff !important;
-}
-
-.service-card.featured .kicker,
-.service-card.featured a,
-.service-card .kicker,
-.service-card a {
-  color: #ffd400 !important;
-}
-
-.service-card:hover {
-  transform: translateY(-4px);
-  border-color: #ffd400 !important;
-  box-shadow: 0 12px 30px rgba(0,0,0,.35);
-}
